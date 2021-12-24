@@ -26,6 +26,8 @@ To run the notebooks they will require a few packages, to install these run the 
  ```
  Note: if not using conda you will need to do some additional set up to set up a kernel pointing to your virtual environment.
  
+Each of the notebooks should be ran top to bottom sequentially, as subsequent cells may rely on variables being declared in an earlier cell or for a package to be imported, similarly there may be variable names which are re-used and so to ensure things are operating as intended be sure to run cells sequentially.
+ 
  ## scikit-learn notebook (scikit-learn.ipynb)
  This is a notebook which introduces and provides an overview of the sklearn package, it explores three different models across two different datasets.
  * Lasso Regression on California housing data
