@@ -10,8 +10,8 @@ In the SciPy notebook it will similarly introduce scipy.stats by giving a brief 
 Quick jump to section:
 * [Contents of repository](#contents-of-repository)
 * [Running the notebooks - Prerequisites](#running-the-notebooks---prerequisites)
-* [scikit-learn notebook (scikit-learn.ipynb)](#scikit-learn-notebook--scikit-learn.ipynb-)
-* [SciPy Stats notebook (scipy-stats.ipynb)](#scipy-stats-notebook--scipy-stats.ipynb-)
+* [scikit-learn notebook (scikit-learn.ipynb)](#scikit-learn-notebook-scikit-learnipynb)
+* [SciPy Stats notebook (scipy-stats.ipynb)](#scipy-stats-notebook-scipy-statsipynb)
 
 ## Contents of repository:
 * scikit-Learn.ipynb - notebook focused on the use of the scikit-learn package.
