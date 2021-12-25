@@ -19,6 +19,7 @@ Quick jump to section:
 * scipy-stats.ipynb - notebook focused on the use of the scipy packages and it's stats module.
 * requirements.txt - text file listing required packages.
 * assessment.pdf - the project brief this repository is based on.
+* .gitignore - file that tracks foldedrs, files and types of files to exclude from git.
 
 ## Binder Hosting of Repository
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/itskeithstudent/Machine-Learning-and-Statistics-Assessment/HEAD?labpath=scikit-learn.ipynb)
