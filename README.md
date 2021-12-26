@@ -9,6 +9,7 @@ In the SciPy notebook it will similarly introduce scipy.stats by giving a brief 
 
 Quick jump to section:
 * [Contents of repository](#contents-of-repository)
+* [Binder Hosting of Repository](#binder-hosting-of-repository)
 * [Running the notebooks - Prerequisites](#running-the-notebooks---prerequisites)
 * [scikit-learn notebook (scikit-learn.ipynb)](#scikit-learn-notebook-scikit-learnipynb)
 * [SciPy Stats notebook (scipy-stats.ipynb)](#scipy-stats-notebook-scipy-statsipynb)
@@ -18,6 +19,15 @@ Quick jump to section:
 * scipy-stats.ipynb - notebook focused on the use of the scipy packages and it's stats module.
 * requirements.txt - text file listing required packages.
 * assessment.pdf - the project brief this repository is based on.
+* .gitignore - file that tracks foldedrs, files and types of files to exclude from git.
+
+## Binder Hosting of Repository
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/itskeithstudent/Machine-Learning-and-Statistics-Assessment/HEAD?labpath=scikit-learn.ipynb)
+
+The notebooks in this repository are hosted over on binder which can be accessed using the above badge or by following this [link](https://mybinder.org/v2/gh/itskeithstudent/Machine-Learning-and-Statistics-Assessment/HEAD?labpath=scikit-learn.ipynb).
+
+Binder gives a way to deploy jupyter notebooks within a git repository so that others can access your work, one of the issues that I encountered when deploying to binder was certain packages needed to be removed from requirements.txt that were specific to a windows environment, whereas binder uses a linux based operating system.
+
 
 ## Running the notebooks - Prerequisites
 To run the notebooks they will require a few packages, to install these run the following command (preferably within a virtual environment):
@@ -39,5 +49,5 @@ Throughout the different sections, observations are made as to what has been att
 This is a notebook which introduces and provides an overview of SciPy's stats package (scipy.stats), it explores an ANOVA analysis on a wine dataset, including verifying the different assumptions.
 As the actual ANOVA analysis itself is fairly short, each feature in the dataset for the independent variables is evaluated to see whether it meets assumptions required for ANOVA.
 
- 
+
  
